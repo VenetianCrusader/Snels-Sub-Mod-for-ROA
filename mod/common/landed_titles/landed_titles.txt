@@ -2,3 +2,9 @@ e_kushan = {
     color = { 17 90 67 }
     color2 = { 255 255 20 }
     }
+
+e_delhi_sultanate = {
+    color = { 66 245 102 }
+    color2 = { 255 255 20 }
+    }
+
