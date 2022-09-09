@@ -33,3 +33,28 @@ custom_kushan = {
 		d_karpayul
 	}
 }
+
+delhi_sultanate = {
+	duchies = {
+	d_vanga
+	d_sumha
+	d_sadia
+	d_gauda
+	d_varendra
+	d_gauda
+	d_jharkand
+	d_magadha
+	d_tirabukhti
+	d_kasi
+	d_jejakabukhti
+	d_kanyakubia
+	d_saryupara
+	d_mathura
+	d_kuru
+	d_haritanaka
+	d_lahore
+	d_multan
+	d_gandhara
+	d_zabulistan
+	}
+}
