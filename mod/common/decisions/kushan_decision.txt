@@ -77,3 +77,4 @@ reestablish_kushan_empire_decision = {
 		base = 100
 	}
 }
+
