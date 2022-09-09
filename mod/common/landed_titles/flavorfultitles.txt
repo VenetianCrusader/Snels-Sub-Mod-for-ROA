@@ -8,3 +8,8 @@ e_delhi_sultanate = {
     color2 = { 255 255 20 }
     }
 
+e_kalinga = {
+    color = { 80 204 136 }
+    color2 = { 255 255 20 }
+    }
+
