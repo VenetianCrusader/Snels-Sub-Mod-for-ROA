@@ -1,0 +1,229 @@
+
+egyptian_religion = {
+	family = rf_pagan
+
+	doctrine = pagan_hostility_doctrine
+
+	pagan_roots = yes
+
+	#Main Group
+	doctrine = doctrine_spiritual_head
+	doctrine = doctrine_gender_equal #Some islands practiced Polyandry and striking a woman was considered a capital offense, but men usually always inherited the throne. So they were not entirely patriarchal, but not exactly equal either.
+	doctrine = doctrine_pluralism_pluralistic
+	doctrine = doctrine_theocracy_temporal
+
+	#Marriage
+	doctrine = doctrine_polygamy #Technically this varied from island to island. Some were monogamous, and some polygamous.
+	doctrine = doctrine_divorce_allowed
+	doctrine = doctrine_bastardry_legitimization
+	doctrine = doctrine_consanguinity_cousins
+
+	#Crimes
+	doctrine = doctrine_homosexuality_shunned #Not enough data, I'll just assume it lands somewhere in the middle
+	doctrine = doctrine_adultery_men_shunned
+	doctrine = doctrine_adultery_women_accepted #Polyamory among women was more common than men on some islands
+	doctrine = doctrine_kinslaying_any_dynasty_member_crime #They believed the deceased became family gods, it would make sense that killing a family member outside of ceremony was frowned upon
+	doctrine = doctrine_deviancy_crime
+	doctrine = doctrine_witchcraft_accepted
+
+	#Clerical Functions
+	doctrine = doctrine_clerical_function_alms_and_pacification
+	doctrine = doctrine_clerical_gender_either #Men and women could be holy people, but their functions differed.
+	doctrine = doctrine_clerical_marriage_allowed #Not enough data to indicate either way
+	doctrine = doctrine_clerical_succession_temporal_appointment #Priests often served as advisers to the King.
+
+	traits = {
+		virtues = { brave honest just }
+		sins = { craven deceitful arbitrary }
+	}
+
+	custom_faith_icons = {
+		custom_faith_1 custom_faith_2 custom_faith_3 custom_faith_4 custom_faith_5 custom_faith_6 custom_faith_7 custom_faith_8 custom_faith_9 custom_faith_10 dualism_custom_1 zoroastrian_custom_1 zoroastrian_custom_2 buddhism_custom_1 buddhism_custom_2 buddhism_custom_3 buddhism_custom_4 taoism_custom_1 yazidi_custom_1 sunni_custom_2 sunni_custom_3 sunni_custom_4 ibadi_custom muhakkima_1 muhakkima_2 muhakkima_4 muhakkima_5 muhakkima_6 judaism_custom_1 custom_faith_fp1_fenrir custom_faith_fp1_irminsul custom_faith_fp1_jormungandr custom_faith_fp1_odins_ravens custom_faith_fp1_runestone_moon custom_faith_fp1_thors_hammer custom_faith_fp1_valknut custom_faith_fp1_yggdrasil
+	}
+
+	holy_order_names = {
+		{ name = "holy_order_guardians_of_divinerealm" }
+		{ name = "holy_order_faithful_of_highgod" }
+		{ name = "holy_order_warriors_of_the_symbol" }
+	}
+
+	holy_order_maa = { bush_hunter }
+
+	localization = {
+		HighGodName = egyptian_high_god_name #Amunra
+		HighGodName2 = egyptian_high_god_name2
+		HighGodNamePossessive = egyptian_high_god_name_possessive
+		HighGodNameSheHe = CHARACTER_SHEHE_HE
+		HighGodHerHis = CHARACTER_HERHIS_HIS
+		HighGodHerselfHimself = CHARACTER_HIMSELF # CHARACTER_HERSELFHIMSELF_HIMSELF does not exist, using the actual one
+		HighGodNameAlternate = egyptian_high_god_name_alternate
+		HighGodNameAlternatePossessive = egyptian_high_god_name_alternate_possessive
+
+		#Creator
+		CreatorName = egyptian_creator_god_name #Ra
+		CreatorNamePossessive = egyptian_creator_god_name_possessive
+		CreatorSheHe = CHARACTER_SHEHE_HE
+		CreatorHerHis = CHARACTER_HERHIS_HIS
+		CreatorHerHim = CHARACTER_HERHIM_HIM
+
+		#HealthGod
+		HealthGodName = egyptian_health_god_name #Sekhmet
+		HealthGodNamePossessive = egyptian_health_god_name_possessive 
+		HealthGodSheHe = CHARACTER_SHEHE_SHE
+		HealthGodHerHis = CHARACTER_HERHIS_HER
+		HealthGodHerHim = CHARACTER_HERHIM_HER
+		
+		#FertilityGod
+		FertilityGodName = egyptian_fertility_god_name #Isis
+		FertilityGodNamePossessive = egyptian_fertility_god_name_possessive
+		FertilityGodSheHe = CHARACTER_SHEHE_THEY
+		FertilityGodHerHis = CHARACTER_HERHIS_THEIR
+		FertilityGodHerHim = CHARACTER_HERHIM_THEM
+
+		#WealthGod
+		WealthGodName = egyptian_wealth_god_name #Horus
+		WealthGodNamePossessive = egyptian_wealth_god_name_possessive
+		WealthGodSheHe = CHARACTER_SHEHE_THEY
+		WealthGodHerHis = CHARACTER_HERHIS_THEIR
+		WealthGodHerHim = CHARACTER_HERHIM_THEM
+
+		#HouseholdGod
+		HouseholdGodName = egyptian_household_god_name #Bes
+		HouseholdGodNamePossessive = egyptian_household_god_name_possessive
+		HouseholdGodSheHe = CHARACTER_SHEHE_THEY
+		HouseholdGodHerHis = CHARACTER_HERHIS_THEIR
+		HouseholdGodHerHim = CHARACTER_HERHIM_THEM
+
+		#FateGod
+		FateGodName = egyptian_fate_god_name #Shai, god of Time so technically not fate but close enough.
+		FateGodNamePossessive = egyptian_fate_god_name_possessive
+		FateGodSheHe = CHARACTER_SHEHE_HE
+		FateGodHerHis = CHARACTER_HERHIS_HIS
+		FateGodHerHim = CHARACTER_HERHIM_HIM
+
+		#KnowledgeGod
+		KnowledgeGodName = egyptian_knowledge_god_name #Thoth
+		KnowledgeGodNamePossessive = egyptian_knowledge_god_name_possessive
+		KnowledgeGodSheHe = CHARACTER_SHEHE_HE
+		KnowledgeGodHerHis = CHARACTER_HERHIS_HIS
+		KnowledgeGodHerHim = CHARACTER_HERHIM_HIM
+
+		#WarGod
+		WarGodName = egyptian_war_god_name #Montu
+		WarGodNamePossessive = egyptian_war_god_name_possessive
+		WarGodSheHe = CHARACTER_SHEHE_THEY
+		WarGodHerHis = CHARACTER_HERHIS_THEIR
+		WarGodHerHim = CHARACTER_HERHIM_THEM
+
+		#TricksterGod
+		TricksterGodName = egyptian_trickster_god_name #Seth
+		TricksterGodNamePossessive = egyptian_trickster_god_name_possessive
+		TricksterGodSheHe = CHARACTER_SHEHE_HE
+		TricksterGodHerHis = CHARACTER_HERHIS_HIS
+		TricksterGodHerHim = CHARACTER_HERHIM_THEM
+
+		#NightGod
+		NightGodName = egyptian_night_god_name #Nephthys
+		NightGodNamePossessive = egyptian_night_god_name_possessive
+		NightGodSheHe = CHARACTER_SHEHE_HE
+		NightGodHerHis = CHARACTER_HERHIS_HIS
+		NightGodHerHim = CHARACTER_HERHIM_HIM
+
+		#WaterGod
+		WaterGodName = egyptian_water_god_name #Khnum
+		WaterGodNamePossessive = egyptian_water_god_name_possessive
+		WaterGodSheHe = CHARACTER_SHEHE_HE
+		WaterGodHerHis = CHARACTER_HERHIS_HIS
+		WaterGodHerHim = CHARACTER_HERHIM_HIM
+
+
+
+		PantheonTerm = egyptian_pantheon_term
+		PantheonTerm2 = egyptian_pantheon_term2
+		PantheonTerm3 = egyptian_pantheon_term3
+		PantheonTermHasHave = pantheon_term_have
+		GoodGodNames = { egyptian_creator_god_name egyptian_health_god_name egyptian_fertility_god_name egyptian_wealth_god_name egyptian_household_god_name egyptian_fate_god_name paganism_good_god_ancestors }
+		DevilName = egyptian_evil_god_name #Apopis
+		DevilNamePossessive = egyptian_evil_god_name_possessive
+		DevilSheHe = CHARACTER_SHEHE_HE
+		DevilHerHis = CHARACTER_HERHIS_HIS
+		DevilHerselfHimself = CHARACTER_HERSELFHIMSELF_HIMSELF
+		EvilGodNames = egyptian_evil_god_name
+		HouseOfWorship = egyptian_house_of_worship
+		HouseOfWorship2 = egyptian_house_of_worship2
+		HouseOfWorship3 = egyptian_house_of_worship3
+		HouseOfWorshipPlural = paganism_house_of_worship_plural
+		ReligiousSymbol = egyptian_religious_symbol #Guatimac, an owl idol
+		ReligiousSymbol2 = egyptian_religious_symbol2 # 2 points to 1
+		ReligiousSymbol3 = egyptian_religious_symbol3 # And so does 3
+		ReligiousText = egyptian_religious_text
+		ReligiousText2 = egyptian_religious_text2
+		ReligiousText3 = egyptian_religious_text3
+		ReligiousHeadName = egyptian_religious_head_title #Faykan, lead worship on Gran Canaria
+		ReligiousHeadTitleName = egyptian_religious_head_title_name
+		DevoteeMale = paganism_devotee
+		DevoteeMalePlural = paganism_devoteeplural
+		DevoteeFemale = paganism_devotee
+		DevoteeFemalePlural = paganism_devoteeplural
+		DevoteeNeuter = paganism_devotee
+		DevoteeNeuterPlural = paganism_devoteeplural
+		PriestMale = egyptian_priest_male #Priest
+		PriestMalePlural = egyptian_priest_male_plural
+		PriestFemale = egyptian_priest_female #Maguadas, typically lead rituals
+		PriestFemalePlural = egyptian_priest_female_plural
+		PriestNeuter = egyptian_priest_neuter #Kankus, priests of either gender that directed ancestor worship and minor god worship
+		PriestNeuterPlural = egyptian_priest_neuter_plural
+		AltPriestTermPlural = egyptian_priest_neuter_plural
+		BishopMale = egyptian_priest_male
+		BishopMalePlural = egyptian_priest_male_plural
+		BishopFemale = egyptian_priest_female
+		BishopFemalePlural = egyptian_priest_female_plural
+		BishopNeuter = egyptian_priest_female
+		BishopNeuterPlural = egyptian_priest_female_plural
+		DivineRealm = egyptian_divine_realm
+		DivineRealm2 = egyptian_divine_realm2
+		DivineRealm3 = egyptian_divine_realm3
+		PositiveAfterLife = egyptian_positive_afterlife #Duat
+		PositiveAfterLife2 = egyptian_positive_afterlife2
+		PositiveAfterLife3 = egyptian_positive_afterlife3
+		NegativeAfterLife = egyptian_negative_afterlife #Eaten by Sobek
+		NegativeAfterLife2 = egyptian_negative_afterlife2
+		NegativeAfterLife3 = egyptian_negative_afterlife3
+		DeathDeityName = egyptian_death_god_name #Anubis
+		DeathDeityNamePossessive = egyptian_death_god_name_possessive
+		DeathDeitySheHe = CHARACTER_SHEHE_HE
+		DeathDeityHerHis = CHARACTER_HERHIS_HIS
+		WitchGodName = egyptian_witch_god_name #Ptah
+		WitchGodNamePossessive = egyptian_witch_god_name_possessive
+		WitchGodHerHis = CHARACTER_HERHIS_THEIR
+		WitchGodSheHe = CHARACTER_SHEHE_THEY
+		WitchGodHerHim = CHARACTER_HERHIM_THEM
+		WitchGodMistressMaster = witch_master
+		WitchGodMotherFather = witch_father
+
+		GHWName = ghw_great_holy_war
+		GHWNamePlural = ghw_great_holy_wars
+	}	
+
+	faiths = {
+		egyptian_pagan = {
+			color = { 0.85 0.40 0.2 }
+			religious_head = d_amun_high_priesthood
+			icon = kushism
+			reformed_icon = kushism_reformed
+
+			holy_site = tripoli
+			holy_site = giza
+			holy_site = gaza
+			holy_site = alexandria
+			holy_site = memphis
+			holy_site = aswan
+
+			doctrine = unreformed_faith_doctrine
+
+			doctrine = tenet_pyramids #They built a lot of big trianges yo
+			doctrine = tenet_ritual_celebrations 
+			doctrine = tenet_divine_marriage #They did love incest
+		}
+	}
+}

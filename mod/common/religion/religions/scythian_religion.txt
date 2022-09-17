@@ -1,0 +1,229 @@
+
+scythian_religion = {
+	family = rf_pagan
+
+	doctrine = pagan_hostility_doctrine
+
+	pagan_roots = yes
+
+	#Main Group
+	doctrine = doctrine_temporal_head
+	doctrine = doctrine_gender_equal #Some islands practiced Polyandry and striking a woman was considered a capital offense, but men usually always inherited the throne. So they were not entirely patriarchal, but not exactly equal either.
+	doctrine = doctrine_pluralism_pluralistic
+    doctrine = doctrine_theocracy_lay_clergy
+
+	#Marriage
+	doctrine = doctrine_polygamy #Technically this varied from island to island. Some were monogamous, and some polygamous.
+	doctrine = doctrine_divorce_allowed
+	doctrine = doctrine_bastardry_legitimization
+	doctrine = doctrine_consanguinity_cousins
+
+	#Crimes
+	doctrine = doctrine_homosexuality_shunned #Not enough data, I'll just assume it lands somewhere in the middle
+	doctrine = doctrine_adultery_men_shunned
+	doctrine = doctrine_adultery_women_accepted #Polyamory among women was more common than men on some islands
+	doctrine = doctrine_kinslaying_any_dynasty_member_crime #They believed the deceased became family gods, it would make sense that killing a family member outside of ceremony was frowned upon
+	doctrine = doctrine_deviancy_crime
+	doctrine = doctrine_witchcraft_accepted
+
+	#Clerical Functions
+	doctrine = doctrine_clerical_function_alms_and_pacification
+	doctrine = doctrine_clerical_gender_either #Men and women could be holy people, but their functions differed.
+	doctrine = doctrine_clerical_marriage_allowed #Not enough data to indicate either way
+	doctrine = doctrine_clerical_succession_temporal_appointment #Priests often served as advisers to the King.
+
+	traits = {
+		virtues = { brave honest just }
+		sins = { craven deceitful arbitrary }
+	}
+
+	custom_faith_icons = {
+		custom_faith_1 custom_faith_2 custom_faith_3 custom_faith_4 custom_faith_5 custom_faith_6 custom_faith_7 custom_faith_8 custom_faith_9 custom_faith_10 dualism_custom_1 zoroastrian_custom_1 zoroastrian_custom_2 buddhism_custom_1 buddhism_custom_2 buddhism_custom_3 buddhism_custom_4 taoism_custom_1 yazidi_custom_1 sunni_custom_2 sunni_custom_3 sunni_custom_4 ibadi_custom muhakkima_1 muhakkima_2 muhakkima_4 muhakkima_5 muhakkima_6 judaism_custom_1 custom_faith_fp1_fenrir custom_faith_fp1_irminsul custom_faith_fp1_jormungandr custom_faith_fp1_odins_ravens custom_faith_fp1_runestone_moon custom_faith_fp1_thors_hammer custom_faith_fp1_valknut custom_faith_fp1_yggdrasil
+	}
+
+	holy_order_names = {
+		{ name = "holy_order_guardians_of_divinerealm" }
+		{ name = "holy_order_faithful_of_highgod" }
+		{ name = "holy_order_warriors_of_the_symbol" }
+	}
+
+	holy_order_maa = { bush_hunter }
+
+	localization = {
+		HighGodName = scythian_high_god_name #Amunra
+		HighGodName2 = scythian_high_god_name2
+		HighGodNamePossessive = scythian_high_god_name_possessive
+		HighGodNameSheHe = CHARACTER_SHEHE_HE
+		HighGodHerHis = CHARACTER_HERHIS_HIS
+		HighGodHerselfHimself = CHARACTER_HIMSELF # CHARACTER_HERSELFHIMSELF_HIMSELF does not exist, using the actual one
+		HighGodNameAlternate = scythian_high_god_name_alternate
+		HighGodNameAlternatePossessive = scythian_high_god_name_alternate_possessive
+
+		#Creator
+		CreatorName = scythian_creator_god_name #Ra
+		CreatorNamePossessive = scythian_creator_god_name_possessive
+		CreatorSheHe = CHARACTER_SHEHE_HE
+		CreatorHerHis = CHARACTER_HERHIS_HIS
+		CreatorHerHim = CHARACTER_HERHIM_HIM
+
+		#HealthGod
+		HealthGodName = scythian_health_god_name #Sekhmet
+		HealthGodNamePossessive = scythian_health_god_name_possessive 
+		HealthGodSheHe = CHARACTER_SHEHE_SHE
+		HealthGodHerHis = CHARACTER_HERHIS_HER
+		HealthGodHerHim = CHARACTER_HERHIM_HER
+		
+		#FertilityGod
+		FertilityGodName = scythian_fertility_god_name #Isis
+		FertilityGodNamePossessive = scythian_fertility_god_name_possessive
+		FertilityGodSheHe = CHARACTER_SHEHE_THEY
+		FertilityGodHerHis = CHARACTER_HERHIS_THEIR
+		FertilityGodHerHim = CHARACTER_HERHIM_THEM
+
+		#WealthGod
+		WealthGodName = scythian_wealth_god_name #Horus
+		WealthGodNamePossessive = scythian_wealth_god_name_possessive
+		WealthGodSheHe = CHARACTER_SHEHE_THEY
+		WealthGodHerHis = CHARACTER_HERHIS_THEIR
+		WealthGodHerHim = CHARACTER_HERHIM_THEM
+
+		#HouseholdGod
+		HouseholdGodName = scythian_household_god_name #Bes
+		HouseholdGodNamePossessive = scythian_household_god_name_possessive
+		HouseholdGodSheHe = CHARACTER_SHEHE_THEY
+		HouseholdGodHerHis = CHARACTER_HERHIS_THEIR
+		HouseholdGodHerHim = CHARACTER_HERHIM_THEM
+
+		#FateGod
+		FateGodName = scythian_fate_god_name #Shai, god of Time so technically not fate but close enough.
+		FateGodNamePossessive = scythian_fate_god_name_possessive
+		FateGodSheHe = CHARACTER_SHEHE_HE
+		FateGodHerHis = CHARACTER_HERHIS_HIS
+		FateGodHerHim = CHARACTER_HERHIM_HIM
+
+		#KnowledgeGod
+		KnowledgeGodName = scythian_knowledge_god_name #Thoth
+		KnowledgeGodNamePossessive = scythian_knowledge_god_name_possessive
+		KnowledgeGodSheHe = CHARACTER_SHEHE_HE
+		KnowledgeGodHerHis = CHARACTER_HERHIS_HIS
+		KnowledgeGodHerHim = CHARACTER_HERHIM_HIM
+
+		#WarGod
+		WarGodName = scythian_war_god_name #Montu
+		WarGodNamePossessive = scythian_war_god_name_possessive
+		WarGodSheHe = CHARACTER_SHEHE_THEY
+		WarGodHerHis = CHARACTER_HERHIS_THEIR
+		WarGodHerHim = CHARACTER_HERHIM_THEM
+
+		#TricksterGod
+		TricksterGodName = scythian_trickster_god_name #Seth
+		TricksterGodNamePossessive = scythian_trickster_god_name_possessive
+		TricksterGodSheHe = CHARACTER_SHEHE_HE
+		TricksterGodHerHis = CHARACTER_HERHIS_HIS
+		TricksterGodHerHim = CHARACTER_HERHIM_THEM
+
+		#NightGod
+		NightGodName = scythian_night_god_name #Nephthys
+		NightGodNamePossessive = scythian_night_god_name_possessive
+		NightGodSheHe = CHARACTER_SHEHE_HE
+		NightGodHerHis = CHARACTER_HERHIS_HIS
+		NightGodHerHim = CHARACTER_HERHIM_HIM
+
+		#WaterGod
+		WaterGodName = scythian_water_god_name #Khnum
+		WaterGodNamePossessive = scythian_water_god_name_possessive
+		WaterGodSheHe = CHARACTER_SHEHE_HE
+		WaterGodHerHis = CHARACTER_HERHIS_HIS
+		WaterGodHerHim = CHARACTER_HERHIM_HIM
+
+
+
+		PantheonTerm = scythian_pantheon_term
+		PantheonTerm2 = scythian_pantheon_term2
+		PantheonTerm3 = scythian_pantheon_term3
+		PantheonTermHasHave = pantheon_term_have
+		GoodGodNames = { scythian_creator_god_name scythian_health_god_name scythian_fertility_god_name scythian_wealth_god_name scythian_household_god_name scythian_fate_god_name paganism_good_god_ancestors }
+		DevilName = scythian_evil_god_name #Apopis
+		DevilNamePossessive = scythian_evil_god_name_possessive
+		DevilSheHe = CHARACTER_SHEHE_HE
+		DevilHerHis = CHARACTER_HERHIS_HIS
+		DevilHerselfHimself = CHARACTER_HERSELFHIMSELF_HIMSELF
+		EvilGodNames = scythian_evil_god_name
+		HouseOfWorship = scythian_house_of_worship
+		HouseOfWorship2 = scythian_house_of_worship2
+		HouseOfWorship3 = scythian_house_of_worship3
+		HouseOfWorshipPlural = paganism_house_of_worship_plural
+		ReligiousSymbol = scythian_religious_symbol #Guatimac, an owl idol
+		ReligiousSymbol2 = scythian_religious_symbol2 # 2 points to 1
+		ReligiousSymbol3 = scythian_religious_symbol3 # And so does 3
+		ReligiousText = scythian_religious_text
+		ReligiousText2 = scythian_religious_text2
+		ReligiousText3 = scythian_religious_text3
+		ReligiousHeadName = scythian_religious_head_title #Faykan, lead worship on Gran Canaria
+		ReligiousHeadTitleName = scythian_religious_head_title_name
+		DevoteeMale = paganism_devotee
+		DevoteeMalePlural = paganism_devoteeplural
+		DevoteeFemale = paganism_devotee
+		DevoteeFemalePlural = paganism_devoteeplural
+		DevoteeNeuter = paganism_devotee
+		DevoteeNeuterPlural = paganism_devoteeplural
+		PriestMale = scythian_priest_male #Priest
+		PriestMalePlural = scythian_priest_male_plural
+		PriestFemale = scythian_priest_female #Maguadas, typically lead rituals
+		PriestFemalePlural = scythian_priest_female_plural
+		PriestNeuter = scythian_priest_neuter #Kankus, priests of either gender that directed ancestor worship and minor god worship
+		PriestNeuterPlural = scythian_priest_neuter_plural
+		AltPriestTermPlural = scythian_priest_neuter_plural
+		BishopMale = scythian_priest_male
+		BishopMalePlural = scythian_priest_male_plural
+		BishopFemale = scythian_priest_female
+		BishopFemalePlural = scythian_priest_female_plural
+		BishopNeuter = scythian_priest_female
+		BishopNeuterPlural = scythian_priest_female_plural
+		DivineRealm = scythian_divine_realm
+		DivineRealm2 = scythian_divine_realm2
+		DivineRealm3 = scythian_divine_realm3
+		PositiveAfterLife = scythian_positive_afterlife #Duat
+		PositiveAfterLife2 = scythian_positive_afterlife2
+		PositiveAfterLife3 = scythian_positive_afterlife3
+		NegativeAfterLife = scythian_negative_afterlife #Eaten by Sobek
+		NegativeAfterLife2 = scythian_negative_afterlife2
+		NegativeAfterLife3 = scythian_negative_afterlife3
+		DeathDeityName = scythian_death_god_name #Anubis
+		DeathDeityNamePossessive = scythian_death_god_name_possessive
+		DeathDeitySheHe = CHARACTER_SHEHE_HE
+		DeathDeityHerHis = CHARACTER_HERHIS_HIS
+		WitchGodName = scythian_witch_god_name #Ptah
+		WitchGodNamePossessive = scythian_witch_god_name_possessive
+		WitchGodHerHis = CHARACTER_HERHIS_THEIR
+		WitchGodSheHe = CHARACTER_SHEHE_THEY
+		WitchGodHerHim = CHARACTER_HERHIM_THEM
+		WitchGodMistressMaster = witch_master
+		WitchGodMotherFather = witch_father
+
+		GHWName = ghw_great_holy_war
+		GHWNamePlural = ghw_great_holy_wars
+	}	
+
+	faiths = {
+		scythian_pagan = {
+			color = { 0.85 0.40 0.2 }
+			religious_head = d_scythian_priest_king
+			icon = tengri
+			reformed_icon = tengri_reformed
+
+			holy_site = khotan
+			holy_site = perekop
+			holy_site = tana
+			holy_site = khiva
+			holy_site = astrakhan
+			
+
+			doctrine = unreformed_faith_doctrine
+
+			doctrine = tenet_war_cults #They loved war. Also special scythian war cb
+			doctrine = tenet_gruesome_festivals #Fun times ahead
+			doctrine = tenet_religious_legal_pronouncements #They had a lot of rules
+		}
+	}
+}

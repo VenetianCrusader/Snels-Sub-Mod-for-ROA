@@ -1,0 +1,56 @@
+#KEMITIC
+
+	tenet_pyramids = {
+		icon = core_tenet_runestone
+
+		name = {
+			first_valid = {
+				desc = tenet_pyramids_name
+			}
+		}
+
+		piety_cost = {
+			if = {
+				limit = {
+					has_doctrine = tenet_megaliths
+				}
+				value = faith_tenet_cost_low
+			}
+			else_if = {
+				limit = { #Reduction in cost for Celtic Christianity because of stone circle shenanigans
+					this = faith:kushism
+				}
+				value = faith_tenet_cost_low
+			}
+			else = {
+				value = faith_tenet_cost_high
+			}
+			
+			#We already practice megaliths
+			if = {
+				limit = { has_doctrine = tenet_pyramids }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+
+		is_shown = {
+			
+		}
+
+		can_pick = {
+			
+		}
+
+		parameters = {
+	
+		}
+
+		character_modifier = {
+			desert_development_growth_factor = 0.15
+			desert_tax_mult = 0.1
+			desert_levy_size = 0.3
+			desert_advantage = 5
+		}
+	}
+	# Heptadic
+	
